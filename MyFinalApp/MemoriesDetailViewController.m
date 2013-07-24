@@ -59,7 +59,7 @@
         [mailController setSubject:@"My baby's 'masterpiece'~"];
         
         //To recipients
-        NSArray *toRecipients = [[NSArray alloc] initWithObjects:@"lindaylzh@gmail.com",nil];
+        NSArray *toRecipients = [[NSArray alloc] initWithObjects:nil];
         [mailController setToRecipients:toRecipients];
         
         //set CCRecipients

@@ -52,17 +52,31 @@
     
     //call showBackground method
     [self showBackground];
-
-    //Give kids instructions about how to play
-    UIAlertView *chooseAlert = [[UIAlertView alloc] initWithTitle:@"" message:@"Honey~\nClick one at the bottom or draw your own picture~" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles: nil];
-    [chooseAlert show];
-
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    NSLog(@"sub view num is %i",[[_babypage_background subviews] count]);
+    if([[_babypage_background subviews] count] == 1){
+                
+        //Give kids instructions about how to play
+        UIAlertView *chooseAlert = [[UIAlertView alloc] initWithTitle:@"" message:@"Honey~\nClick one at the bottom or draw your own picture~" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles: nil];
+        [chooseAlert show];
+    }else if([[_babypage_background subviews] count] > 2){
+        //Give kids instructions about how to play
+        UIAlertView *chooseAlert = [[UIAlertView alloc] initWithTitle:@"" message:@"Honey~\nClick one at the bottom or draw your own picture~" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles: nil];
+        [chooseAlert show];
+
+        for (UIView *subview in [_babypage_background subviews]) {
+            [subview removeFromSuperview];
+        }
+        
+        [self.paintView removeFromSuperview];
+    
+    }
     //call showBackground method
     [self showBackground];
+    
 }
 
 /*******************************************************************************
@@ -75,8 +89,8 @@
     self.babypage_background.frame = CGRectMake(0, 0, 320, 440);
     
     // Select a random image from frameImages array
-    _frameImages = @[@"baby_background1", @"baby_background2",@"baby_background3",@"baby_background4"];
-    int randomIndex = arc4random()%4;
+    _frameImages = @[@"baby_background1", @"baby_background2",@"baby_background3",@"baby_background4",@"baby_background5",@"baby_background6",@"baby_background7",@"baby_background8",@"baby_background9",@"baby_background10",@"baby_background11",@"baby_background12"];
+    int randomIndex = arc4random()%12;
     
     UIImage *image = [UIImage imageNamed:[self.frameImages objectAtIndex:randomIndex]];
     self.babypage_background.image = image;
@@ -161,6 +175,9 @@
     UIAlertView *screenShotAlert = [[UIAlertView alloc] initWithTitle:@"" message:@"You've saved the picture to your photo library, open it and see!" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
     [screenShotAlert show];
     
+    //Call clearScreen method to clear the screen, then start new one
+    [self clearScreen];
+    
 }
 
 /*******************************************************************************
@@ -243,8 +260,8 @@
         
         //Call screenshot method to take a screen shot
         [self ScreenShot];
-        //Call clearScreen method to clear the screen, then start new one
-        [self clearScreen];
+//        //Call clearScreen method to clear the screen, then start new one
+//        [self clearScreen];
         
     }
     if ([super respondsToSelector:@selector(motionEnded:withEvent:)]) {

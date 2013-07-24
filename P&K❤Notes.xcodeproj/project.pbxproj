@@ -38,6 +38,14 @@
 		3D4BE69916E01A6A002B20D0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BE69716E01A6A002B20D0 /* MainStoryboard_iPad.storyboard */; };
 		3D6CFE8D16F4D314008781AF /* BabyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CFE8C16F4D314008781AF /* BabyViewController.m */; };
 		3D6CFE8F16F4D34F008781AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6CFE8E16F4D34F008781AF /* QuartzCore.framework */; };
+		3D86F0B6179F89F300E0994A /* baby_background5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D86F0B1179F89F300E0994A /* baby_background5.png */; };
+		3D86F0B7179F89F300E0994A /* baby_background6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D86F0B2179F89F300E0994A /* baby_background6.png */; };
+		3D86F0B8179F89F300E0994A /* baby_background7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D86F0B3179F89F300E0994A /* baby_background7.png */; };
+		3D86F0B9179F89F300E0994A /* baby_background8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D86F0B4179F89F300E0994A /* baby_background8.png */; };
+		3D86F0BA179F89F300E0994A /* baby_background9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D86F0B5179F89F300E0994A /* baby_background9.png */; };
+		3D86F0BC179F8B7B00E0994A /* baby_background10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D86F0BB179F8B7B00E0994A /* baby_background10.png */; };
+		3D86F0BF179F8DFC00E0994A /* baby_background11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D86F0BD179F8DFC00E0994A /* baby_background11.png */; };
+		3D86F0C0179F8DFC00E0994A /* baby_background12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D86F0BE179F8DFC00E0994A /* baby_background12.png */; };
 		3DAC01F516F53097002DBED2 /* ParentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC01F416F53097002DBED2 /* ParentPageViewController.m */; };
 		3DAE043D16E930F100A905B2 /* MemoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE043C16E930F100A905B2 /* MemoriesTableViewController.m */; };
 		3DAE044016E93BE300A905B2 /* NoteCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE043F16E93BE300A905B2 /* NoteCustomCell.m */; };
@@ -95,6 +103,14 @@
 		3D6CFE8B16F4D314008781AF /* BabyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BabyViewController.h; path = ../BabyViewController.h; sourceTree = "<group>"; };
 		3D6CFE8C16F4D314008781AF /* BabyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BabyViewController.m; path = ../BabyViewController.m; sourceTree = "<group>"; };
 		3D6CFE8E16F4D34F008781AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D86F0B1179F89F300E0994A /* baby_background5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_background5.png; sourceTree = "<group>"; };
+		3D86F0B2179F89F300E0994A /* baby_background6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_background6.png; sourceTree = "<group>"; };
+		3D86F0B3179F89F300E0994A /* baby_background7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_background7.png; sourceTree = "<group>"; };
+		3D86F0B4179F89F300E0994A /* baby_background8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_background8.png; sourceTree = "<group>"; };
+		3D86F0B5179F89F300E0994A /* baby_background9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_background9.png; sourceTree = "<group>"; };
+		3D86F0BB179F8B7B00E0994A /* baby_background10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_background10.png; sourceTree = "<group>"; };
+		3D86F0BD179F8DFC00E0994A /* baby_background11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_background11.png; sourceTree = "<group>"; };
+		3D86F0BE179F8DFC00E0994A /* baby_background12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby_background12.png; sourceTree = "<group>"; };
 		3DAC01F316F53097002DBED2 /* ParentPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPageViewController.h; sourceTree = "<group>"; };
 		3DAC01F416F53097002DBED2 /* ParentPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentPageViewController.m; sourceTree = "<group>"; };
 		3DAE043B16E930F100A905B2 /* MemoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoriesTableViewController.h; sourceTree = "<group>"; };
@@ -158,6 +174,14 @@
 				3D34852C178DEF82007F293C /* baby_background2.png */,
 				3D34852D178DEF82007F293C /* baby_background3.png */,
 				3D34852E178DEF82007F293C /* baby_background4.png */,
+				3D86F0B1179F89F300E0994A /* baby_background5.png */,
+				3D86F0B2179F89F300E0994A /* baby_background6.png */,
+				3D86F0B3179F89F300E0994A /* baby_background7.png */,
+				3D86F0B4179F89F300E0994A /* baby_background8.png */,
+				3D86F0B5179F89F300E0994A /* baby_background9.png */,
+				3D86F0BB179F8B7B00E0994A /* baby_background10.png */,
+				3D86F0BD179F8DFC00E0994A /* baby_background11.png */,
+				3D86F0BE179F8DFC00E0994A /* baby_background12.png */,
 				3DDDC01F178DC1A2001E9656 /* noteButton.png */,
 				3DDDC019178DBA21001E9656 /* cover.jpg */,
 				3DDDC01D178DBD13001E9656 /* bar.png */,
@@ -332,6 +356,14 @@
 				3DBC8A9D179CE36700B92749 /* Default.png in Resources */,
 				3DBC8A9E179CE36700B92749 /* Default@2x.png in Resources */,
 				3DBC8AA0179CF7F400B92749 /* Settings.bundle in Resources */,
+				3D86F0B6179F89F300E0994A /* baby_background5.png in Resources */,
+				3D86F0B7179F89F300E0994A /* baby_background6.png in Resources */,
+				3D86F0B8179F89F300E0994A /* baby_background7.png in Resources */,
+				3D86F0B9179F89F300E0994A /* baby_background8.png in Resources */,
+				3D86F0BA179F89F300E0994A /* baby_background9.png in Resources */,
+				3D86F0BC179F8B7B00E0994A /* baby_background10.png in Resources */,
+				3D86F0BF179F8DFC00E0994A /* baby_background11.png in Resources */,
+				3D86F0C0179F8DFC00E0994A /* baby_background12.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

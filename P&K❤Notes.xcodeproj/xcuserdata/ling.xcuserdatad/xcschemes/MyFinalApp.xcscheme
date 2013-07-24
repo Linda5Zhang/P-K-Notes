@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D4BE67816E01A6A002B20D0"
-               BuildableName = "MyFinalApp.app"
+               BuildableName = "P&amp;K&#10084;Notes.app"
                BlueprintName = "P&amp;K&#10084;Notes"
                ReferencedContainer = "container:P&amp;K&#10084;Notes.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D4BE67816E01A6A002B20D0"
-            BuildableName = "MyFinalApp.app"
+            BuildableName = "P&amp;K&#10084;Notes.app"
             BlueprintName = "P&amp;K&#10084;Notes"
             ReferencedContainer = "container:P&amp;K&#10084;Notes.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D4BE67816E01A6A002B20D0"
-            BuildableName = "MyFinalApp.app"
+            BuildableName = "P&amp;K&#10084;Notes.app"
             BlueprintName = "P&amp;K&#10084;Notes"
             ReferencedContainer = "container:P&amp;K&#10084;Notes.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D4BE67816E01A6A002B20D0"
-            BuildableName = "MyFinalApp.app"
+            BuildableName = "P&amp;K&#10084;Notes.app"
             BlueprintName = "P&amp;K&#10084;Notes"
             ReferencedContainer = "container:P&amp;K&#10084;Notes.xcodeproj">
          </BuildableReference>
