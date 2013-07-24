@@ -62,7 +62,9 @@
         //Give kids instructions about how to play
         UIAlertView *chooseAlert = [[UIAlertView alloc] initWithTitle:@"" message:@"Honey~\nClick one at the bottom or draw your own picture~" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles: nil];
         [chooseAlert show];
-    }else if([[_babypage_background subviews] count] > 2){
+        
+        [self.paintView removeFromSuperview];
+    }else if([[_babypage_background subviews] count] >= 2){
         //Give kids instructions about how to play
         UIAlertView *chooseAlert = [[UIAlertView alloc] initWithTitle:@"" message:@"Honey~\nClick one at the bottom or draw your own picture~" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles: nil];
         [chooseAlert show];
